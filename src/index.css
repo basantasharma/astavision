@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 
-body,
-nav {
-  background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+@layer components {
+  .gradient {
+    @apply bg-gradient-to-r from-[#161a31] to-[#06091f];
+  }
 }
 
