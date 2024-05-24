@@ -4,6 +4,7 @@ import Navigation from "./components/Navbar";
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import OurServices from "./components/OurServices";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       </svg>
 
       <OurServices />
+      <ContactUs />
     </>
   );
 }

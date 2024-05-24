@@ -1,9 +1,8 @@
-import React from "react";
 import ServiceCard from "./ServiceCard";
 
 const OurServices = () => {
   return (
-    <div className="bg-[#a2d9ff] mt-[-2px] py-5">
+    <div className="bg-[#a2d9ff] mt-[-2px] py-5 pb-10">
       <h1 className="text-center text-6xl text-white font-extrabold">
         Our Services
       </h1>
