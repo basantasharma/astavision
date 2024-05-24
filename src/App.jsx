@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import OurServices from "./components/OurServices";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
 
       <OurServices />
       <ContactUs />
+      <Footer />
     </>
   );
 }
