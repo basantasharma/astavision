@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="py-10 px-10">
+    <div className="py-10 px-10" id="about">
       <h1 className="text-7xl text-[#06091f] font-extrabold text-center ">
         ABOUT US
       </h1>
@@ -10,20 +10,7 @@ const AboutUs = () => {
         <div className="md:flex-1 w-full">
           <h1 className="text-[22px] tracking-wide  leading-7">
             {" "}
-            Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-            cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui
-            minim labore adipisicing minim sint cillum sint consectetur
-            cupidatat. Lorem ipsum dolor sit amet, officia excepteur ex fugiat
-            reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit
-            ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-            Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate
-            voluptate dolor minim nulla est proident. Nostrud officia pariatur
-            ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-            reprehenderit commodo officia dolor Lorem duis laboris cupidatat
-            officia voluptate. Culpa proident adipisicing id nulla nisi laboris
-            ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo
-            ex non excepteur duis sunt velit enim. Voluptate laboris sint
-            cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+            Astavision Infosys is a reputable and innovative IT company that specializes in providing cutting-edge solutions and services to businesses worldwide. With a strong focus on technology-driven advancements, We help organizations leverage the power of information technology to streamline operations, enhance productivity, and achieve their business goals.We are a forward-thinking IT company that provides comprehensive and customized solutions to businesses seeking to leverage the power of technology. With our expertise, dedication, and focus on customer satisfaction, We help organizations drive growth, efficiency, and success in the digital era.
           </h1>
         </div>
         <div className="w-full md:flex-1">
