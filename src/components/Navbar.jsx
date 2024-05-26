@@ -31,7 +31,7 @@ function Navigation() {
             </div>
           </Link>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <Link to="/kycfrom">
+            <Link to="/kycform">
               <button
                 type="button"
                 className=" text-white font-bold border-2 border-blue-400 bg-blue-400 hover:bg-blue-800 focus:ring-2   focus:outline-none focus:ring-blue-300  rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-400 dark:hover:bg-transparent dark:hover:border-blue-400 dark:hover:text-blue-400 dark:focus:ring-blue-400"

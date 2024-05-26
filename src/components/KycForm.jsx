@@ -1,14 +1,9 @@
-import React from "react";
-
 const KycForm = () => {
   return (
-    <>
-      <div className="flex justify-center align-middle items-center">
-        KycForm
-      </div>
-    </>
+    <div className=" ">
+      <h1 className="text-black">KycForm</h1>
+    </div>
   );
 };
 
 export default KycForm;
-
