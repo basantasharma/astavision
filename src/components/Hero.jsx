@@ -13,8 +13,7 @@ const Hero = () => {
       <section>
         <p className="text-white text-xl">
           {" "}
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          cillum sint consectetur cupidatat.
+          <span className="text-[1.5rem]">“The best way to predict the future is to invent it.”</span> <br /> <span className="float-end">- Alan Kay, computer scientist</span>
         </p>
       </section>
       <section></section>
