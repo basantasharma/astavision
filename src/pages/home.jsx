@@ -52,10 +52,8 @@ function Home() {
 
       <OurServices />
       <ContactUs />
-      <Footer />
     </>
   );
 }
 
 export default Home;
-
