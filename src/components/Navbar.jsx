@@ -56,7 +56,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link to="career" spy={true} smooth={true} offset={-90} duration={500}>
+        <Link to="career" spy={true} smooth={true} offset={-100} duration={500}>
           Career
         </Link>
       </li>
