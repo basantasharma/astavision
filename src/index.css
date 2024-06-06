@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
-@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap");
 
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .gradient {
-    @apply bg-gradient-to-r from-[#161a31] to-[#06091f];
-  }
+* {
+    @apply transition-colors duration-700 ease-linear;
 }
 
+body {
+  font-family: "Poppins", "san-serif";
+  /* padding-top:  68px;  */
+}
