@@ -2,7 +2,7 @@ import KYC from "./components/KYC";
 import Navbar from "./components/Navbar";
 import Footer from "./section/Footer";
 import Services from "./section/Services";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Hero from "./section/Hero";
 import About from "./section/About";
 import Career from "./section/Career";
@@ -17,6 +17,7 @@ export default function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/kyc" element={<KYC />} />
         </Routes>
+        <Hero />
         <Services />
         <About />
         <Career />
