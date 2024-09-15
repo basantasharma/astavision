@@ -17,7 +17,6 @@ export default function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/kyc" element={<KYC />} />
         </Routes>
-        <Hero />
         <Services />
         <About />
         <Career />
