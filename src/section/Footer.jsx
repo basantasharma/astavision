@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer py-10 px-8 lg:p-24 bg-[#f7f7f7] dark:bg-slate-900 text-black dark:text-white">
       <aside className="">
         <svg
-          className="h-16 w-16 fill-black dark:fill-white "
+          className="h-10 w-10 md:h-14 md:w-14 fill-black dark:fill-white "
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
           width="212.000000pt"

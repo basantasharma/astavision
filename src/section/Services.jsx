@@ -1,16 +1,19 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Features = () => {
   return (
-    <section id="services" className="md:mb-10 p-8 md:px-28 mt-2 lg:mt-20 bg-white text-black dark:text-white dark:bg-slate-900">
+    <section
+      id="services"
+      className="md:mb-10 p-8 md:px-28 mt-2 lg:mt-20 bg-white text-black dark:text-white dark:bg-slate-900"
+    >
       <div className="bg-[#f7f7f7] p-5 lg:p-6 dark:bg-slate-800">
         {/* heading  */}
         <div className="sm:w-3/4 lg:w-9/12 mx-auto px-2 text-justify">
           <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
             <h1 className="text-3xl md:text-center text-blue-500">Services</h1>
             <hr className="w-28 h-1 rounded-lg bg-blue-400 border-none" />
-            </div>
+          </div>
           <p className="mt-4">
             Astavision Infosys is dedicated to making IT services quick and easy
             for you. Our solutions ensure that your networking, system
@@ -43,8 +46,14 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
-                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
-                More Info
+                <Link
+                  to="career"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  More Info
                 </Link>
               </button>
             </div>
@@ -94,8 +103,14 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
-                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
-                More Info
+                <Link
+                  to="career"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  More Info
                 </Link>
               </button>
             </div>
@@ -145,8 +160,14 @@ const Features = () => {
                 type="button"
                 className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
               >
-                <Link to="career" spy={true} smooth={true} offset={-100} duration={700}>
-                More Info
+                <Link
+                  to="career"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={700}
+                >
+                  More Info
                 </Link>
               </button>
             </div>

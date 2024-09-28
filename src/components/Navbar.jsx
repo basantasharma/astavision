@@ -1,26 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import KYC from "./KYC";
 import { Link } from "react-router-dom";
-// import { Link } from "react-scroll";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
-  );
-  const elementRef = useRef(document.documentElement);
-  useEffect(() => {
-    const element = elementRef.current;
-    if (theme === "dark") {
-      element.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-      document.body.classList.add("dark");
-    } else {
-      element.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      document.body.classList.remove("dark");
-    }
-  }, [theme, elementRef]);
-
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
@@ -102,7 +84,7 @@ const Navbar = () => {
             </ul>
           </div>
           <svg
-            className="h-16 w-16 fill-black dark:fill-white "
+            className="h-10 w-10 md:h-14 md:w-14 fill-black dark:fill-white "
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
             width="212.000000pt"
