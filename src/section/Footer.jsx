@@ -23,7 +23,7 @@ const Footer = () => {
         <p>
           <span className="text-blue-500">AstaVision Infosys</span>
           <br />
-          Providing reliable tech solution since xyz.
+          Providing reliable tech solution since 2022.
         </p>
       </aside>
       <nav>
